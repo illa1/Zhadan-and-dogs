@@ -1,0 +1,229 @@
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(226,231,235,1) 70%, rgba(191,201,210,1) 100%);}
+header div{
+	width:250px;
+	height:1000px;
+	background-color:gray;
+	position:fixed;
+	top:0;
+	left:0;
+}
+section{
+	padding-left:250px;
+}
+.logo{
+	display:flex;
+	justify-content:center;
+}
+header nav{
+	display:flex;
+	padding:5px 5px 5px 0;
+	margin:5px;
+	border-top:2px solid #AEB6BF; 
+}
+header nav a{
+	background-color:gray;
+	border-radius:0 50px 50px 0;
+	width:600px;
+	display:flex;
+	color:black;
+	font-size:35px;
+	text-decoration: none;
+}
+header nav a:hover{
+	background-color:#AEB6BF;
+	color:#BD0000; 
+}
+header p{
+	color:#AEB6BF;
+	font-size:25px;
+	padding:50px 10px;
+}
+.title{
+	background-image:url("images/sergiy_jadan_ta_sobaki.jpg");
+	background-size:cover; 
+	height:700px;
+	position:relative;
+	
+}
+.title_text{
+	width:100%;
+	font-size:25px;
+}
+.title_text p{
+	padding:25px 100px;
+}
+.title_h{
+	width:100%;
+	position:absolute;
+	bottom:0;
+	opacity:0.8;
+}
+h1{
+	display:flex; 
+	justify-content:center;
+}
+h1 p{
+	justify-content:center;
+	font-size:90px;
+	background-color:#AAB7B8;
+	border-radius:50px 50px 0 0;
+	padding:20px;
+}
+.uthasnuku{
+	font-size:30px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.uthasnuku h2{
+	display:flex;
+	font-size:50px;
+	justify-content:center;
+}
+.uthasnuku_ul{
+	width:600px;
+}
+.uthasnuku_ul li div{
+	background-color:#85929E;
+	border-radius:50px;
+	width:600px;
+	display:flex;
+	justify-content:center;
+}
+.uthasnuku_ul li{
+	display:flex;
+	padding:5px;
+	margin:5px;
+}
+.uthasnuku_img {
+	border-radius:50%;
+	width:600px;
+	height:600px;
+	background-image:url("images/uthasnuk.png");
+	background-size:cover;
+	background-position:center;
+	margin-left:90px; 
+}
+.albom{
+	display:flex;
+	justify-content: space-evenly;
+	padding-top:100px;
+}
+.albom1{
+	background-image:url("images/i75_ArticleImage_8079.jpg");
+	background-size:cover; 
+	background-position:center;
+	height:500px;
+	width:500px;
+	position:relative;
+	border:5px solid #AEB6BF;
+}
+.albom2{
+	background-image:url("images/madona.jpg");
+	background-size:cover; 
+	background-position:center;
+	height:500px;
+	width:500px;
+	position:relative;
+	border:5px solid #AEB6BF;
+}
+.albom div h3{
+	background-color:#85929E;
+	border-radius:50px;
+	width:540px;
+	height:70px;
+	font-size:50px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	position:absolute;
+	top:-20px;
+	left:-20px;
+	color:black;
+	transition:1s;
+}
+.albom div h3:hover{
+	height:90px;
+	top:-30px;
+	background-color:#AEB6BF;
+}
+.musik h2{
+	display:flex;
+	font-size:50px;
+	justify-content:center;
+	padding:50px;
+}
+.musik iframe{
+	border:5px solid #AEB6BF;
+}
+.musik li{
+	display:flex;
+	padding:5px;
+	margin:5px;
+}
+.musik li a{
+	background-color:#85929E;
+	border-radius:50px;
+	width:600px;
+	display:flex;
+	justify-content:center;
+	color:black;
+	text-decoration: none;
+}
+.musik div{
+	font-size:30px;
+	display:flex;
+	justify-content:space-evenly;
+	align-items:center;
+}
+.musik li a:hover{
+	background-color:#AEB6BF;
+}
+.jadan div{
+	font-size:30px;
+	display:flex;
+	align-items:center;
+	justify-content:center; 
+}
+.jadan p {
+	width:800px;
+	padding:20px; 
+}
+.jadan h2{
+	display:flex;
+	font-size:50px;
+	justify-content:center;
+	padding:50px 0;
+}
+footer{
+	height:180px;
+	background-color:#313131;
+	font-size:20px;
+	color:white;
+	display:flex;
+	justify-content: space-evenly;
+	align-items:center;
+	flex-direction:row;
+	padding:0px 20px 0 250px;
+	overflow: hidden;
+}
+footer div{
+	display:flex;
+	align-items:center;
+}
+
+h4{
+	font-size:80px;
+}
+footer img{
+	padding:0px 60px;
+	height:150px; 
+}
+
+
+
